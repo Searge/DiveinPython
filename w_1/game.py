@@ -2,6 +2,9 @@ import random
 
 number = random.randint(0, 101)
 
+print("Вгадайте число від 0 до 100")
+print("Для того, щоб вийти, введіть: q")
+
 while True:
     answer = input("Введіть число: ")
     if not answer or answer == "q":
