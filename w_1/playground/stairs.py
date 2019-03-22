@@ -5,4 +5,3 @@ height = int(num_steps)
 for step in range(1, height + 1):
     space = " " * (height - step)
     print(space + "#" * step)
-
