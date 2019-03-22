@@ -6,9 +6,9 @@ c = int(sys.argv[3])
 
 
 def quad_equat(a, b, c):
-    D = (abs(b) ** 2 - (4 * a * c)) ** 0.5
-    x1 = (abs(b) - D) / (2 * a)
-    x2 = (abs(b) + D) / (2 * a)
+    D = (abs(b) ** 2 - (4 * a * (c))) ** 0.5
+    x1 = (- b - D) / (2 * a)
+    x2 = (- b + D) / (2 * a)
     print(int(x1))
     print(int(x2))
 
