@@ -24,3 +24,4 @@
 5. [Files](https://github.com/Searge/DiveinPython/blob/master/w_2/files.ipynb)
 6. [Functional programming](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/functional.ipynb)
 7. [Decorators](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/decorators.ipynb)
+8. [Generators](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/generators.ipynb)
