@@ -5,11 +5,12 @@
 ![Lang count](https://img.shields.io/github/languages/count/Searge/DiveinPython.svg)
 ![Code size](https://img.shields.io/github/languages/code-size/Searge/DiveinPython.svg)
 ![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
+==================
 
----
 <aside class="notice">
 Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 </aside>
+------
 
 [coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
 
