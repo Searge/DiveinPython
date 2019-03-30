@@ -14,7 +14,7 @@ Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 ![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
 ***
 
-## Content {#content}
+## Content
 1. [Base types](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_1/base_types.ipynb)
 2. [Arrays sort](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/arrays.ipynb)
 	- [Median in list](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/median.ipynb)
