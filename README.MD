@@ -1,10 +1,10 @@
 # Погружение в Python
-==================
 
 Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 ------
 
 [coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
+
 ![Created](https://img.shields.io/date/1553066760.svg)
 ![commit activity](https://img.shields.io/github/commit-activity/m/Searge/DiveinPython.svg)
 ![last commit](https://img.shields.io/github/last-commit/Searge/DiveinPython.svg)
