@@ -7,7 +7,9 @@
 ![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
 
 ---
-> Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
+<aside class="notice">
+Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
+</aside>
 
 [coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
 
