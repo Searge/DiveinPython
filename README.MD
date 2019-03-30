@@ -1,16 +1,17 @@
 # Погружение в Python
-![Created](https://img.shields.io/date/1553066760.svg)
-![commit activity](https://img.shields.io/github/commit-activity/m/Searge/DiveinPython.svg)
-![last commit](https://img.shields.io/github/last-commit/Searge/DiveinPython.svg)
-![Lang count](https://img.shields.io/github/languages/count/Searge/DiveinPython.svg)
-![Code size](https://img.shields.io/github/languages/code-size/Searge/DiveinPython.svg)
-![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
 ==================
 
 Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 ------
 
 [coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
+![Created](https://img.shields.io/date/1553066760.svg)
+![commit activity](https://img.shields.io/github/commit-activity/m/Searge/DiveinPython.svg)
+![last commit](https://img.shields.io/github/last-commit/Searge/DiveinPython.svg)
+![Lang count](https://img.shields.io/github/languages/count/Searge/DiveinPython.svg)
+![Code size](https://img.shields.io/github/languages/code-size/Searge/DiveinPython.svg)
+![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
+***
 
 
 В ходе курса вы изучите конструкции языка, типы и структуры данных, функции, научитесь применять объектно-ориентированное и функциональное программирование, узнаете про особенности реализации Python, научитесь писать асинхронный и многопоточный код. Помимо теории вас ждут практические задания, которые помогут проверить полученные знания и отточить навыки программирования на Python. После успешного окончания курса вы сможете использовать полученный опыт для разработки проектов различной сложности.
