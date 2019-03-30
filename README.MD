@@ -10,9 +10,10 @@ Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 ![Code size](https://img.shields.io/github/languages/code-size/Searge/DiveinPython.svg)
 ![Repo size](https://img.shields.io/github/repo-size/Searge/DiveinPython.svg)
 ***
-[coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
 
 В ходе курса вы изучите конструкции языка, типы и структуры данных, функции, научитесь применять объектно-ориентированное и функциональное программирование, узнаете про особенности реализации Python, научитесь писать асинхронный и многопоточный код. Помимо теории вас ждут практические задания, которые помогут проверить полученные знания и отточить навыки программирования на Python. После успешного окончания курса вы сможете использовать полученный опыт для разработки проектов различной сложности.
+
+[coursera.org/learn/diving-in-python/](https://www.coursera.org/learn/diving-in-python/)
 
 ## Content
 1. [Base types](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_1/base_types.ipynb)
