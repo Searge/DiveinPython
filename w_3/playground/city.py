@@ -27,12 +27,8 @@ class PogodaForecast:
         return forecast
 
 
-class YahooWeatherForecast(object):
+class YahooWeatherForecast:
     """docstring for YahooWeatherForecast"""
-
-    def __init__(self, arg):
-        super(YahooWeatherForecast, self).__init__()
-        self.arg = arg
 
     def get(self, city):
         # данные для запроса
@@ -41,8 +37,8 @@ class YahooWeatherForecast(object):
         url = f'https://weather-ydn-yql.media.yahoo.com/forecastrss?location={city}&format={format}&u={unit}'
 
         # данные для аутентификации на сервере
-        consumer_key = 'то что даст вам яху после регистрации'
-        consumer_secret = 'то что даст вам яху после регистрации'
+        consumer_key = 'тdj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
+        consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
 
         print("sending http request...")
         auth = OAuth1(consumer_key, consumer_secret)
@@ -58,22 +54,23 @@ class YahooWeatherForecast(object):
                 "high_temp": int(day_data["high"])
             })
 #            print(day_data) # отладка: вывести полученный джейсон
-        return forecas
+        return forecast
 
 
 class CityInfo:
 
-    def __init__(self, city):
+    def __init__(self, city, weather_forecast=None):
         self.city = city
+        self._weather_forecast = weather_forecast
 
     def weather_forecast(self):
-        pass
+        return self._weather_forecast(self.city)
 
 
 def _main():
-    city_info = CityInfo("Kyiv")
-    forecaast = city_info.weather_forecast()
-    pprint.pprint(forecaast)
+    city_info = CityInfo("Kiev")
+    forecast = city_info.weather_forecast()
+    pprint.pprint(forecast)
 
 
 if __name__ == "__main__":
