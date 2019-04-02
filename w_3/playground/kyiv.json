@@ -1,0 +1,1067 @@
+{
+    "status": 0,
+    "location": "Kiev [Ukraine;Ukraine]",
+    "url": "https:\/\/www.yourweather.co.uk\/weather_Kiev-Europe-Ukraine-Kiev-UKKK-1-13088.html",
+    "day": {
+        "1": {
+            "date": "20190402",
+            "name": "Tuesday",
+            "month": "",
+            "symbol_value": "2",
+            "symbol_description": "Sunny intervals",
+            "symbol_value2": "2",
+            "symbol_description2": "Sunny intervals",
+            "tempmin": "-2",
+            "tempmax": "8",
+            "wind": {
+                "speed": "21",
+                "symbol": "10",
+                "symbolB": "50",
+                "gusts": "43"
+            },
+            "rain": "0",
+            "humidity": "54",
+            "pressure": "1028",
+            "snowline": "600",
+            "sun": {
+                "in": "06:33",
+                "mid": "13:00",
+                "out": "19:29"
+            },
+            "moon": {
+                "in": "05:56",
+                "out": "16:15",
+                "lumi": "8.36%",
+                "desc": "Last Quarter, 8.36% Illuminated",
+                "symbol": "25"
+            },
+            "units": {
+                "temp": "\u00b0C",
+                "wind": "km\/h",
+                "rain": "mm",
+                "pressure": "mb",
+                "snowline": "m"
+            },
+            "local_time": "22:58",
+            "local_time_offset": 3,
+            "hour": [
+                {
+                    "interval": "02:00",
+                    "temp": "2",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "13",
+                        "dir": "N",
+                        "symbol": "9",
+                        "symbolB": "41",
+                        "gusts": "29"
+                    },
+                    "rain": "0",
+                    "humidity": "61",
+                    "pressure": "1027",
+                    "clouds": "0%",
+                    "snowline": "700",
+                    "windchill": "-2"
+                },
+                {
+                    "interval": "05:00",
+                    "temp": "-1",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "11",
+                        "dir": "N",
+                        "symbol": "9",
+                        "symbolB": "33",
+                        "gusts": "20"
+                    },
+                    "rain": "0",
+                    "humidity": "72",
+                    "pressure": "1028",
+                    "clouds": "0%",
+                    "snowline": "600",
+                    "windchill": "-4"
+                },
+                {
+                    "interval": "08:00",
+                    "temp": "2",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "14",
+                        "dir": "N",
+                        "symbol": "9",
+                        "symbolB": "33",
+                        "gusts": "27"
+                    },
+                    "rain": "0",
+                    "humidity": "62",
+                    "pressure": "1029",
+                    "clouds": "0%",
+                    "snowline": "600",
+                    "windchill": "-1"
+                },
+                {
+                    "interval": "11:00",
+                    "temp": "6",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "18",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "42",
+                        "gusts": "37"
+                    },
+                    "rain": "0",
+                    "humidity": "46",
+                    "pressure": "1029",
+                    "clouds": "14%",
+                    "snowline": "700",
+                    "windchill": "3"
+                },
+                {
+                    "interval": "14:00",
+                    "temp": "8",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "21",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "50",
+                        "gusts": "43"
+                    },
+                    "rain": "0",
+                    "humidity": "38",
+                    "pressure": "1028",
+                    "clouds": "69%",
+                    "snowline": "800",
+                    "windchill": "5"
+                },
+                {
+                    "interval": "17:00",
+                    "temp": "8",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "19",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "50",
+                        "gusts": "42"
+                    },
+                    "rain": "0",
+                    "humidity": "37",
+                    "pressure": "1027",
+                    "clouds": "48%",
+                    "snowline": "900",
+                    "windchill": "5"
+                },
+                {
+                    "interval": "20:00",
+                    "temp": "4",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "11",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "42",
+                        "gusts": "36"
+                    },
+                    "rain": "0",
+                    "humidity": "49",
+                    "pressure": "1027",
+                    "clouds": "9%",
+                    "snowline": "900",
+                    "windchill": "2"
+                },
+                {
+                    "interval": "23:00",
+                    "temp": "0",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "9",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "34",
+                        "gusts": "20"
+                    },
+                    "rain": "0",
+                    "humidity": "68",
+                    "pressure": "1027",
+                    "clouds": "1%",
+                    "snowline": "800",
+                    "windchill": "-2"
+                }
+            ]
+        },
+        "2": {
+            "date": "20190403",
+            "name": "Wednesday",
+            "month": "",
+            "symbol_value": "1",
+            "symbol_description": "Sunny",
+            "symbol_value2": "1",
+            "symbol_description2": "Sunny",
+            "tempmin": "-3",
+            "tempmax": "10",
+            "wind": {
+                "speed": "13",
+                "symbol": "10",
+                "symbolB": "42",
+                "gusts": "31"
+            },
+            "rain": "0",
+            "humidity": "60",
+            "pressure": "1025",
+            "snowline": "700",
+            "sun": {
+                "in": "06:30",
+                "mid": "13:00",
+                "out": "19:31"
+            },
+            "moon": {
+                "in": "06:18",
+                "out": "17:20",
+                "lumi": "3.91%",
+                "desc": "Last Quarter, 3.91% Illuminated",
+                "symbol": "26"
+            },
+            "units": {
+                "temp": "\u00b0C",
+                "wind": "km\/h",
+                "rain": "mm",
+                "pressure": "mb",
+                "snowline": "m"
+            },
+            "local_time": "22:58",
+            "local_time_offset": 3,
+            "hour": [
+                {
+                    "interval": "02:00",
+                    "temp": "-1",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "N",
+                        "symbol": "1",
+                        "symbolB": "25",
+                        "gusts": "14"
+                    },
+                    "rain": "0",
+                    "humidity": "81",
+                    "pressure": "1028",
+                    "clouds": "10%",
+                    "snowline": "700",
+                    "windchill": "-4"
+                },
+                {
+                    "interval": "05:00",
+                    "temp": "-3",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "N",
+                        "symbol": "1",
+                        "symbolB": "25",
+                        "gusts": "13"
+                    },
+                    "rain": "0",
+                    "humidity": "88",
+                    "pressure": "1027",
+                    "clouds": "5%",
+                    "snowline": "700",
+                    "windchill": "-5"
+                },
+                {
+                    "interval": "08:00",
+                    "temp": "1",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "NE",
+                        "symbol": "2",
+                        "symbolB": "26",
+                        "gusts": "17"
+                    },
+                    "rain": "0",
+                    "humidity": "70",
+                    "pressure": "1027",
+                    "clouds": "0%",
+                    "snowline": "700",
+                    "windchill": "-1"
+                },
+                {
+                    "interval": "11:00",
+                    "temp": "6",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "12",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "34",
+                        "gusts": "28"
+                    },
+                    "rain": "0",
+                    "humidity": "47",
+                    "pressure": "1027",
+                    "clouds": "13%",
+                    "snowline": "700",
+                    "windchill": "4"
+                },
+                {
+                    "interval": "14:00",
+                    "temp": "9",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "12",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "42",
+                        "gusts": "30"
+                    },
+                    "rain": "0",
+                    "humidity": "37",
+                    "pressure": "1025",
+                    "clouds": "31%",
+                    "snowline": "900",
+                    "windchill": "7"
+                },
+                {
+                    "interval": "17:00",
+                    "temp": "9",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "11",
+                        "dir": "NE",
+                        "symbol": "10",
+                        "symbolB": "34",
+                        "gusts": "28"
+                    },
+                    "rain": "0",
+                    "humidity": "37",
+                    "pressure": "1024",
+                    "clouds": "12%",
+                    "snowline": "1000",
+                    "windchill": "7"
+                },
+                {
+                    "interval": "20:00",
+                    "temp": "4",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "E",
+                        "symbol": "11",
+                        "symbolB": "35",
+                        "gusts": "22"
+                    },
+                    "rain": "0",
+                    "humidity": "55",
+                    "pressure": "1023",
+                    "clouds": "0%",
+                    "snowline": "1000",
+                    "windchill": "2"
+                },
+                {
+                    "interval": "23:00",
+                    "temp": "0",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "E",
+                        "symbol": "3",
+                        "symbolB": "27",
+                        "gusts": "16"
+                    },
+                    "rain": "0",
+                    "humidity": "72",
+                    "pressure": "1023",
+                    "clouds": "0%",
+                    "snowline": "900",
+                    "windchill": "-3"
+                }
+            ]
+        },
+        "3": {
+            "date": "20190404",
+            "name": "Thursday",
+            "month": "",
+            "symbol_value": "2",
+            "symbol_description": "Sunny intervals",
+            "symbol_value2": "2",
+            "symbol_description2": "Sunny intervals",
+            "tempmin": "-4",
+            "tempmax": "9",
+            "wind": {
+                "speed": "10",
+                "symbol": "33",
+                "symbolB": "35",
+                "gusts": "22"
+            },
+            "rain": "0",
+            "humidity": "58",
+            "pressure": "1021",
+            "snowline": "800",
+            "sun": {
+                "in": "06:28",
+                "mid": "13:00",
+                "out": "19:33"
+            },
+            "moon": {
+                "in": "06:38",
+                "out": "18:25",
+                "lumi": "1.13%",
+                "desc": "New Moon, 1.13% Illuminated",
+                "symbol": "27"
+            },
+            "units": {
+                "temp": "\u00b0C",
+                "wind": "km\/h",
+                "rain": "mm",
+                "pressure": "mb",
+                "snowline": "m"
+            },
+            "local_time": "22:58",
+            "local_time_offset": 3,
+            "hour": [
+                {
+                    "interval": "03:00",
+                    "temp": "0",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "7",
+                        "dir": "E",
+                        "symbol": "3",
+                        "symbolB": "27",
+                        "gusts": "14"
+                    },
+                    "rain": "0",
+                    "humidity": "72",
+                    "pressure": "1023",
+                    "clouds": "0%",
+                    "snowline": "900",
+                    "windchill": "-3"
+                },
+                {
+                    "interval": "06:00",
+                    "temp": "-3",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "NE",
+                        "symbol": "2",
+                        "symbolB": "18",
+                        "gusts": "11"
+                    },
+                    "rain": "0",
+                    "humidity": "83",
+                    "pressure": "1022",
+                    "clouds": "0%",
+                    "snowline": "800",
+                    "windchill": "-6"
+                },
+                {
+                    "interval": "09:00",
+                    "temp": "3",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "4",
+                        "dir": "E",
+                        "symbol": "3",
+                        "symbolB": "27",
+                        "gusts": "13"
+                    },
+                    "rain": "0",
+                    "humidity": "64",
+                    "pressure": "1023",
+                    "clouds": "0%",
+                    "snowline": "800",
+                    "windchill": "2"
+                },
+                {
+                    "interval": "12:00",
+                    "temp": "8",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "7",
+                        "dir": "E",
+                        "symbol": "11",
+                        "symbolB": "35",
+                        "gusts": "21"
+                    },
+                    "rain": "0",
+                    "humidity": "41",
+                    "pressure": "1022",
+                    "clouds": "9%",
+                    "snowline": "800",
+                    "windchill": "7"
+                },
+                {
+                    "interval": "15:00",
+                    "temp": "8",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "4",
+                        "dir": "E",
+                        "symbol": "11",
+                        "symbolB": "35",
+                        "gusts": "21"
+                    },
+                    "rain": "0",
+                    "humidity": "37",
+                    "pressure": "1021",
+                    "clouds": "90%",
+                    "snowline": "900",
+                    "windchill": "8"
+                },
+                {
+                    "interval": "18:00",
+                    "temp": "8",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "7",
+                        "dir": "NE",
+                        "symbol": "2",
+                        "symbolB": "26",
+                        "gusts": "17"
+                    },
+                    "rain": "0",
+                    "humidity": "40",
+                    "pressure": "1020",
+                    "clouds": "66%",
+                    "snowline": "1000",
+                    "windchill": "7"
+                },
+                {
+                    "interval": "21:00",
+                    "temp": "2",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "E",
+                        "symbol": "3",
+                        "symbolB": "27",
+                        "gusts": "15"
+                    },
+                    "rain": "0",
+                    "humidity": "70",
+                    "pressure": "1020",
+                    "clouds": "15%",
+                    "snowline": "1000",
+                    "windchill": "-1"
+                },
+                {
+                    "interval": "24:00",
+                    "temp": "0",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "9",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "14"
+                    },
+                    "rain": "0",
+                    "humidity": "74",
+                    "pressure": "1019",
+                    "clouds": "1%",
+                    "snowline": "1000",
+                    "windchill": "-3"
+                }
+            ]
+        },
+        "4": {
+            "date": "20190405",
+            "name": "Friday",
+            "month": "",
+            "symbol_value": "3",
+            "symbol_description": "Cloudy",
+            "symbol_value2": "3",
+            "symbol_description2": "Cloudy",
+            "tempmin": "-2",
+            "tempmax": "12",
+            "wind": {
+                "speed": "11",
+                "symbol": "13",
+                "symbolB": "37",
+                "gusts": "24"
+            },
+            "rain": "0",
+            "humidity": "61",
+            "pressure": "1019",
+            "snowline": "1000",
+            "sun": {
+                "in": "06:26",
+                "mid": "13:00",
+                "out": "19:34"
+            },
+            "moon": {
+                "in": "06:58",
+                "out": "19:32",
+                "lumi": "0.19%",
+                "desc": "New Moon, 0.19% Illuminated",
+                "symbol": "0"
+            },
+            "units": {
+                "temp": "\u00b0C",
+                "wind": "km\/h",
+                "rain": "mm",
+                "pressure": "mb",
+                "snowline": "m"
+            },
+            "local_time": "22:58",
+            "local_time_offset": 3,
+            "hour": [
+                {
+                    "interval": "03:00",
+                    "temp": "-1",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "11",
+                        "dir": "S",
+                        "symbol": "5",
+                        "symbolB": "29",
+                        "gusts": "15"
+                    },
+                    "rain": "0",
+                    "humidity": "80",
+                    "pressure": "1019",
+                    "clouds": "8%",
+                    "snowline": "1000",
+                    "windchill": "-5"
+                },
+                {
+                    "interval": "06:00",
+                    "temp": "-1",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "14"
+                    },
+                    "rain": "0",
+                    "humidity": "81",
+                    "pressure": "1019",
+                    "clouds": "7%",
+                    "snowline": "1100",
+                    "windchill": "-4"
+                },
+                {
+                    "interval": "09:00",
+                    "temp": "4",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "7",
+                        "dir": "S",
+                        "symbol": "5",
+                        "symbolB": "29",
+                        "gusts": "17"
+                    },
+                    "rain": "0",
+                    "humidity": "66",
+                    "pressure": "1020",
+                    "clouds": "0%",
+                    "snowline": "1100",
+                    "windchill": "2"
+                },
+                {
+                    "interval": "12:00",
+                    "temp": "9",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "7",
+                        "dir": "SE",
+                        "symbol": "12",
+                        "symbolB": "36",
+                        "gusts": "20"
+                    },
+                    "rain": "0",
+                    "humidity": "50",
+                    "pressure": "1020",
+                    "clouds": "0%",
+                    "snowline": "1200",
+                    "windchill": "9"
+                },
+                {
+                    "interval": "15:00",
+                    "temp": "11",
+                    "symbol_value": "4",
+                    "symbol_description": "Overcast",
+                    "symbol_value2": "4",
+                    "symbol_description2": "Overcast",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "S",
+                        "symbol": "13",
+                        "symbolB": "37",
+                        "gusts": "22"
+                    },
+                    "rain": "0",
+                    "humidity": "40",
+                    "pressure": "1019",
+                    "clouds": "99%",
+                    "snowline": "1300",
+                    "windchill": "11"
+                },
+                {
+                    "interval": "18:00",
+                    "temp": "10",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "10",
+                        "dir": "E",
+                        "symbol": "11",
+                        "symbolB": "35",
+                        "gusts": "23"
+                    },
+                    "rain": "0",
+                    "humidity": "47",
+                    "pressure": "1018",
+                    "clouds": "49%",
+                    "snowline": "1400",
+                    "windchill": "10"
+                },
+                {
+                    "interval": "21:00",
+                    "temp": "5",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "18"
+                    },
+                    "rain": "0",
+                    "humidity": "64",
+                    "pressure": "1020",
+                    "clouds": "18%",
+                    "snowline": "1300",
+                    "windchill": "4"
+                },
+                {
+                    "interval": "24:00",
+                    "temp": "3",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "9",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "19"
+                    },
+                    "rain": "0",
+                    "humidity": "74",
+                    "pressure": "1020",
+                    "clouds": "1%",
+                    "snowline": "1300",
+                    "windchill": "1"
+                }
+            ]
+        },
+        "5": {
+            "date": "20190406",
+            "name": "Saturday",
+            "month": "",
+            "symbol_value": "3",
+            "symbol_description": "Cloudy",
+            "symbol_value2": "3",
+            "symbol_description2": "Cloudy",
+            "tempmin": "-1",
+            "tempmax": "13",
+            "wind": {
+                "speed": "14",
+                "symbol": "12",
+                "symbolB": "44",
+                "gusts": "36"
+            },
+            "rain": "0",
+            "humidity": "59",
+            "pressure": "1020",
+            "snowline": "1200",
+            "sun": {
+                "in": "06:24",
+                "mid": "12:59",
+                "out": "19:36"
+            },
+            "moon": {
+                "in": "07:18",
+                "out": "20:40",
+                "lumi": "1.2%",
+                "desc": "New Moon, 1.2% Illuminated",
+                "symbol": "1"
+            },
+            "units": {
+                "temp": "\u00b0C",
+                "wind": "km\/h",
+                "rain": "mm",
+                "pressure": "mb",
+                "snowline": "m"
+            },
+            "local_time": "22:58",
+            "local_time_offset": 3,
+            "hour": [
+                {
+                    "interval": "03:00",
+                    "temp": "1",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "8",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "16"
+                    },
+                    "rain": "0",
+                    "humidity": "86",
+                    "pressure": "1021",
+                    "clouds": "8%",
+                    "snowline": "1300",
+                    "windchill": "-1"
+                },
+                {
+                    "interval": "06:00",
+                    "temp": "0",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "9",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "13"
+                    },
+                    "rain": "0",
+                    "humidity": "90",
+                    "pressure": "1021",
+                    "clouds": "10%",
+                    "snowline": "1200",
+                    "windchill": "-3"
+                },
+                {
+                    "interval": "09:00",
+                    "temp": "6",
+                    "symbol_value": "1",
+                    "symbol_description": "Sunny",
+                    "symbol_value2": "1",
+                    "symbol_description2": "Sunny",
+                    "wind": {
+                        "speed": "5",
+                        "dir": "SE",
+                        "symbol": "4",
+                        "symbolB": "28",
+                        "gusts": "15"
+                    },
+                    "rain": "0",
+                    "humidity": "71",
+                    "pressure": "1022",
+                    "clouds": "1%",
+                    "snowline": "1200",
+                    "windchill": "5"
+                },
+                {
+                    "interval": "12:00",
+                    "temp": "11",
+                    "symbol_value": "2",
+                    "symbol_description": "Sunny intervals",
+                    "symbol_value2": "2",
+                    "symbol_description2": "Sunny intervals",
+                    "wind": {
+                        "speed": "13",
+                        "dir": "SE",
+                        "symbol": "12",
+                        "symbolB": "36",
+                        "gusts": "27"
+                    },
+                    "rain": "0",
+                    "humidity": "46",
+                    "pressure": "1021",
+                    "clouds": "51%",
+                    "snowline": "1200",
+                    "windchill": "11"
+                },
+                {
+                    "interval": "15:00",
+                    "temp": "12",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "14",
+                        "dir": "SE",
+                        "symbol": "12",
+                        "symbolB": "44",
+                        "gusts": "31"
+                    },
+                    "rain": "0",
+                    "humidity": "38",
+                    "pressure": "1020",
+                    "clouds": "90%",
+                    "snowline": "1300",
+                    "windchill": "12"
+                },
+                {
+                    "interval": "18:00",
+                    "temp": "10",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "13",
+                        "dir": "E",
+                        "symbol": "11",
+                        "symbolB": "43",
+                        "gusts": "36"
+                    },
+                    "rain": "0",
+                    "humidity": "45",
+                    "pressure": "1019",
+                    "clouds": "76%",
+                    "snowline": "1400",
+                    "windchill": "10"
+                },
+                {
+                    "interval": "21:00",
+                    "temp": "7",
+                    "symbol_value": "3",
+                    "symbol_description": "Cloudy",
+                    "symbol_value2": "3",
+                    "symbol_description2": "Cloudy",
+                    "wind": {
+                        "speed": "13",
+                        "dir": "SE",
+                        "symbol": "12",
+                        "symbolB": "36",
+                        "gusts": "26"
+                    },
+                    "rain": "0",
+                    "humidity": "53",
+                    "pressure": "1020",
+                    "clouds": "82%",
+                    "snowline": "1400",
+                    "windchill": "5"
+                },
+                {
+                    "interval": "24:00",
+                    "temp": "6",
+                    "symbol_value": "4",
+                    "symbol_description": "Overcast",
+                    "symbol_value2": "4",
+                    "symbol_description2": "Overcast",
+                    "wind": {
+                        "speed": "13",
+                        "dir": "SE",
+                        "symbol": "12",
+                        "symbolB": "36",
+                        "gusts": "24"
+                    },
+                    "rain": "0",
+                    "humidity": "54",
+                    "pressure": "1020",
+                    "clouds": "98%",
+                    "snowline": "1400",
+                    "windchill": "4"
+                }
+            ]
+        }
+    }
+}
