@@ -35,7 +35,6 @@ class YahooWeatherForecast:
         format = 'json'
         unit = 'c'  # информация в градусах цельсия
         url = f'https://weather-ydn-yql.media.yahoo.com/forecastrss?location={city}&format={format}&u={unit}'
-
         # данные для аутентификации на сервере
         consumer_key = 'тdj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
         consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
@@ -50,28 +49,28 @@ class YahooWeatherForecast:
         forecast_data = data["forecasts"]
         for day_data in forecast_data:
             forecast.append({
-                "day": day_data["day"],
+                "day": parse(day_data["day"]),
                 "high_temp": int(day_data["high"])
             })
-#            print(day_data) # отладка: вывести полученный джейсон
+        print(day_data) # отладка: вывести полученный джейсон
         return forecast
 
 
 class CityInfo:
 
-    def __init__(self, city, weather_forecast=None):
+    def __init__(self, city, forecast_provider=None):
         self.city = city
-        self._weather_forecast = weather_forecast
+        self._forecast_provider = forecast_provider or YahooWeatherForecast()
 
     def weather_forecast(self):
-        return self._weather_forecast(self.city)
+        return self._forecast_provider.get(self.city)
 
 
 def _main():
-    city_info = CityInfo("Kiev")
-    forecast = city_info.weather_forecast()
+    city = CityInfo("Kiev")
+    forecast = city.weather_forecast()
     pprint.pprint(forecast)
 
 
 if __name__ == "__main__":
-    _main
+    _main()
