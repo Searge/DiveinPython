@@ -21,9 +21,12 @@ import ast
 """
 Basic info
 """
-app_id = 'eHMyyJ4m'
-consumer_key = 'dj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
-consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
+keys = [line.rstrip('\n') for line in open('yahoo.key')]
+
+consumer_key = keys[0]
+consumer_secret = keys[1]
+app_id = keys[2]
+
 query = {'location': 'kyiv,ua', 'format': 'json', 'u': 'c'}
 
 url = 'https://weather-ydn-yql.media.yahoo.com/forecastrss'

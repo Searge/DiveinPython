@@ -36,8 +36,9 @@ class YahooWeatherForecast:
         unit = 'c'  # информация в градусах цельсия
         url = f'https://weather-ydn-yql.media.yahoo.com/forecastrss?location={city}&format={format}&u={unit}'
         # данные для аутентификации на сервере
-        consumer_key = 'dj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
-        consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
+        keys = [line.rstrip('\n') for line in open('yahoo.key')]
+        consumer_key = keys[0]
+        consumer_secret = keys[1]
 
         print("sending http request...")
         auth = OAuth1(consumer_key, consumer_secret)
@@ -52,7 +53,7 @@ class YahooWeatherForecast:
                 "day": parse(day_data["day"]),
                 "high_temp": int(day_data["high"])
             })
-        print(day_data) # отладка: вывести полученный джейсон
+        print(day_data)  # отладка: вывести полученный джейсон
         return forecast
 
 
