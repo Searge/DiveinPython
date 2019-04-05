@@ -36,7 +36,7 @@ class YahooWeatherForecast:
         unit = 'c'  # информация в градусах цельсия
         url = f'https://weather-ydn-yql.media.yahoo.com/forecastrss?location={city}&format={format}&u={unit}'
         # данные для аутентификации на сервере
-        consumer_key = 'тdj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
+        consumer_key = 'dj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
         consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
 
         print("sending http request...")

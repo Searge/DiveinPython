@@ -15,13 +15,16 @@ import hmac
 import hashlib
 from base64 import b64encode
 
+import json
+import ast
+
 """
 Basic info
 """
 app_id = 'eHMyyJ4m'
 consumer_key = 'dj0yJmk9QnFRblJUckFBenNKJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl'
 consumer_secret = 'bc99df9b9724f7e0ce029969868b8fd658dcb820'
-query = {'location': 'macau,mo', 'format': 'json', 'u': 'c'}
+query = {'location': 'kyiv,ua', 'format': 'json', 'u': 'c'}
 
 url = 'https://weather-ydn-yql.media.yahoo.com/forecastrss'
 method = 'GET'
@@ -70,4 +73,8 @@ request.headers['Authorization'] = auth_header
 request.headers['X-Yahoo-App-Id'] = app_id
 
 response = urllib.request.urlopen(request).read()
-print(response)
+
+res_dict = ast.literal_eval(response.decode('utf-8'))
+res = json.dumps(res_dict)
+
+print(json.loads(res))
