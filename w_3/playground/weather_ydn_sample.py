@@ -15,6 +15,7 @@ import hmac
 import hashlib
 from base64 import b64encode
 
+import pprint
 import json
 import ast
 
@@ -80,4 +81,4 @@ response = urllib.request.urlopen(request).read()
 res_dict = ast.literal_eval(response.decode('utf-8'))
 res = json.dumps(res_dict)
 
-print(json.loads(res))
+pprint.pprint(json.loads(res))
