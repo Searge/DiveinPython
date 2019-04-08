@@ -26,6 +26,11 @@ Moscow Institute of Physics and Technology, Mail.Ru Group & ФРОО
 6. [Functional programming](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/functional.ipynb)
 7. [Decorators](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/decorators.ipynb)
 8. [Generators](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_2/generators.ipynb)
+9. [Classes](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_3/Classes.ipynb)
+    1. [Methods](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_3/methods.ipynb)
+    2. [Composition](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_3/Composition.ipynb)
+    3. [Inheritance](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_3/Inheritance.ipynb)
+10. [Exceptions](https://nbviewer.jupyter.org/github/Searge/DiveinPython/blob/master/w_3/Exceptions.ipynb)
 
 
 ***
