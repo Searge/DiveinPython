@@ -54,3 +54,19 @@
 - **селектори** (геттери) — надають значення атрибута;
 - **модифікатори** (сеттери) — встановлюють значення атрибута;
 - **ітератори** — надають послідовний доступ до множини атрибутів.
+
+***
+
+`@classmethod` означає: коли цей метод викликається, ми передаємо клас як перший аргумент замість екземпляру цього класу (як зазвичай ми робимо з методами). Це означає, що ви можете використовувати клас і його властивості всередині цього методу, а не конкретний екземпляр.
+
+`@staticmethod` означає: коли викликається цей метод, ми не передаємо йому екземпляр класу (як це зазвичай робиться з методами). Це означає, що ви можете помістити функцію всередині класу, але ви не можете отримати доступ до примірника цього класу (це корисно, коли ваш метод не використовує екземпляр).
+
+
+## Посилання
+
+- [Различия между классом и объектом?](https://toster.ru/q/4847#answer_20947)
+- [Сила и красота декораторов](https://habr.com/ru/post/46306/)
+- [Значение @classmethod и @staticmethod ](http://qaru.site/questions/10955/meaning-of-classmethod-and-staticmethod-for-beginner)
+- [Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
+- [В чем разница между @staticmethod и @classmethod?](http://qaru.site/questions/385/what-is-the-difference-between-staticmethod-and-classmethod-in-python)
+- [What is the difference between @staticmethod and @classmethod?](https://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod)
