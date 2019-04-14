@@ -41,6 +41,8 @@ def _main():
     apophis = Asteroid(2099942)
     print(f'Name: {apophis.name}')
     print(f'Diameter: {apophis.diameter}m')
+    print(f'Date: {apophis.closest_approach["date"]}')
+    print(f'Distance: {apophis.closest_approach["distance"]:.2} LD')
 
 
 if __name__ == '__main__':
