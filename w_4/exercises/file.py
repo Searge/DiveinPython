@@ -51,19 +51,18 @@ class File:
                 raise StopIteration('End of File')
 
             self._index = f.tell()
-
+            # Strip superfluous newline symbol
             return line.rstrip('\n')
 
 
 def _main():
     first = File('first')
     second = File('second')
-    print(first)
-    for line in second:
-        print(line)
-
     new_obj = first + second
-    print(new_obj)
+
+    print(f"Lines of {new_obj}:\n")
+    for line in new_obj:
+        print(line)
 
 
 if __name__ == '__main__':
