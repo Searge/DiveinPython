@@ -52,7 +52,7 @@ class File:
 
             self._index = f.tell()
 
-            return line
+            return line.rstrip('\n')
 
 
 def _main():
