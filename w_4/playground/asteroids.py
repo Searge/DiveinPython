@@ -16,8 +16,10 @@ class Asteroid:
 
     @property
     def diameter(self):
-        return int(self.get_data()['estimated_' +
-                                   'diameter']['meters']['estimated_diameter_max'])
+        est = 'estimated_' + 'diameter'
+        m = 'meters'
+        est_m = 'estimated_diameter_max'
+        return int(self.get_data()[est][m][est_m])
 
     @property
     def closest_approach(self):
@@ -33,3 +35,13 @@ class Asteroid:
                     'distance': distance
                 })
         return closest
+
+
+def _main():
+    apophis = Asteroid(2099942)
+    print(f'Name: {apophis.name}')
+    print(f'Diameter: {apophis.diameter}m')
+
+
+if __name__ == '__main__':
+    _main()
