@@ -22,4 +22,5 @@ if __name__ == '__main__':
     next(g)
     g.send("golang is better?")
     g.send("python is simple!")
+    g.throw(RuntimeError, "something wrong")
     g.close()
