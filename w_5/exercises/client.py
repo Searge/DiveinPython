@@ -1,5 +1,5 @@
 import socket
-import time.time
+import time
 
 
 class ClientError(Exception):
@@ -14,31 +14,42 @@ class Client:
         self._port = int(port)
         self._timeout = int(timeout)
 
-        self._socket = socket.create_connection((host, self._port),
-                                                self._timeout)
-
-    def _read(self):
-        """Читаємо відповіді сервера"""
-        data = b""
-
-        while not data.endswith(b"\n\n"):
-            data += self._socket.recv(1024)
-
-        status, payload = data.decode().split("\n", 1)
-
-        return payload.strip()
+    def _send(self, cmd):
+        with socket.create_connection((self._host, self._port),
+                                      self._timeout) as sock:
+            sock.sendall(cmd.encode("utf8"))
+            data = sock.recv(1024)
+            return data.decode('utf-8')
 
     def put(self, key, value, timestamp=None):
         """Зберігаємо метрики на сервері"""
-        timestamp = timestamp or int(time())
-        self._socket.sendall(
-            f"put {key} {value} {timestamp}\n".encode())
+        timestamp = timestamp or int(time.time())
+        try:
+            response = self._send(f"put {key} {value} {timestamp}\n")
+            if response[0:3] != 'ok\n':
+                raise ClientError(response)
+        except socket.error as err:
+            raise ClientError("Can't send data", err)
 
-        self._read()
-
-    def get():
+    def get(self, key):
         """отримуємо метрики"""
-        pass
+        response = self._send(f"get {key}\n")
+        if response[0:3] != 'ok\n':
+            raise ClientError(response)
+
+        data = dict()
+        lines = response.split('\n')
+        for l in lines[1:-2]:
+            metric = l.split(' ')
+            res_key = metric[0]
+            res_val = float(metric[1])
+            res_ts = int(metric[2])
+            if res_key not in data:
+                data[res_key] = list()
+            data[res_key].append((res_ts, res_val))
+            data[res_key].sort(key=lambda tup: tup[0])
+
+        return data
 
 
 def _main():
