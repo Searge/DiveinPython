@@ -6,6 +6,16 @@ class ClientError(Exception):
     pass
 
 
+class ClientSocketError(ClientError):
+    """Исключение, выбрасываемое клиентом при сетевой ошибке"""
+    pass
+
+
+class ClientProtocolError(ClientError):
+    """Исключение, выбрасываемое клиентом при ошибке протокола"""
+    pass
+
+
 class Client:
     """docstring for Client"""
 

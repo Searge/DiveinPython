@@ -9,7 +9,7 @@
 запускаете этот скрипт.
 """
 import sys
-from client import Client, ClientSocketError, ClientProtocolError
+from w_5.exercises.client import Client, ClientSocketError, ClientProtocolError
 
 
 def run(host, port):
