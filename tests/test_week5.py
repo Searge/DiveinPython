@@ -23,7 +23,7 @@ from unittest.mock import patch
 from collections import deque
 
 # импорт модуля с решением
-from client import Client, ClientError
+from w_5.exercises.client import Client, ClientError
 
 
 class ServerSocketException(Exception):

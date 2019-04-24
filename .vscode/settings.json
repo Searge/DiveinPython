@@ -4,9 +4,9 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./w_5/exercises/",
+        "./tests",
         "-p",
-        "test*.py"
+        "test_*.py"
     ],
     "python.testing.pyTestEnabled": false,
     "python.testing.nosetestsEnabled": false,
