@@ -38,7 +38,8 @@ class Asteroid:
 
 
 def _main():
-    apophis = Asteroid(2099942)
+    # apophis = Asteroid(2099942)
+    apophis = Asteroid(3840893)
     print(f'Name: {apophis.name}')
     print(f'Diameter: {apophis.diameter}m')
     print(f'Date: {apophis.closest_approach["date"]}')
